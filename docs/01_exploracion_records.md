@@ -2,17 +2,16 @@
 
 ## 1. ¿Qué es una fila?
 
-Cada fila es un/una: ...
+Cada fila es un/una: Registro del proceso de contratación o licitación pública en sí mismo
 
-Clave (columna que no se repite): ...
-
+Clave (columna que no se repite): Ninguna columna se repite, cada columna parece ser un paso de del proceso de licitación o contratación
 ¿Lo comprobaste? ...
 
 ## 2. Tamaño
 
-Filas: ...
+Filas: 8388
 
-Columnas: ...
+Columnas: 39
 
 ## 3. Columnas importantes
 
