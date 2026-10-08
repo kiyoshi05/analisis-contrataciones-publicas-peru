@@ -1,12 +1,15 @@
 -- =====================================================
 -- Proyecto: analisis-contrataciones-publicas
 -- Archivo:  00_crear_base_y_schema.sql
--- Objetivo: crea el la database y crea dos schemas
+-- Objetivo: realizar un analisis de las contraciones publicas de diciembre del año 2025 
 -- =====================================================
 
 -- Creación de la base de datos
-CREATE DATABASE analisis_contrataciones_publicas; 
--- Creo un schema staging para limpiar datos (datos crudos)
-CREATE SCHEMA staging; 
--- Creo un schema datos para limpiar datos (datos crudos)
-CREATE SCHEMA clean;  
+-- Ejecutar conectado a: postgres
+CREATE DATABASE  analisis_contrataciones_publicas; 
+-- schema staging para guardar los dartos crudos
+-- Ejecutar conectado a: analisis_contrataciones_publicas
+CREATE SCHEMA IF NOT EXIST staging; 
+-- Ejecutar conectado a: analisis_contrataciones_publicas
+-- schema datos, donde van los datos limpios
+CREATE SCHEMA IF NOT EXIST clean;  
