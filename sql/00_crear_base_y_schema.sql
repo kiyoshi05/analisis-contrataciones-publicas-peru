@@ -9,7 +9,7 @@
 CREATE DATABASE  analisis_contrataciones_publicas; 
 -- schema staging para guardar los dartos crudos
 -- Ejecutar conectado a: analisis_contrataciones_publicas
-CREATE SCHEMA IF NOT EXIST staging; 
+CREATE SCHEMA IF NOT EXISTS staging; 
 -- Ejecutar conectado a: analisis_contrataciones_publicas
 -- schema datos, donde van los datos limpios
-CREATE SCHEMA IF NOT EXIST clean;  
+CREATE SCHEMA IF NOT EXISTS clean;  
